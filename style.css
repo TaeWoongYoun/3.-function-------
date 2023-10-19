@@ -1,0 +1,7 @@
+.alert-box{
+    width: 480px;
+    height: 480px;
+    background-color: blue;
+    border-radius: 15px;
+    display: none;
+}

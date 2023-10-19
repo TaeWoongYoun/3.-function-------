@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function 문법 사용법</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="alert-box" id="alert"></div>
+
+<button onclick="알림창열기()">알림창 여는 버튼</button>
+<button onclick="알림창닫기()">알림창 닫는 버튼</button>
+
+
+
+<script>
+    // function 이름(){코드}
+  function 알림창열기(){
+    document.getElementById('alert').style.display = 'block';
+  }
+  function 알림창닫기(){
+    document.getElementById('alert').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>
